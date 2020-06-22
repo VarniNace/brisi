@@ -2,7 +2,7 @@
     "name": "brisi",
     "dependencies": {
         "device": "*",
-        "brisi": "github:varninace/brisi#e6c2fc4d4592956b98322f9f166296a5fa36329d"
+        "brisi": "github:varninace/brisi#6391f0cfbe3215fae110b86ca0b7dcdac09e1e44"
     },
     "description": "",
     "files": [
