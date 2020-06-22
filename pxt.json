@@ -1,7 +1,8 @@
 {
     "name": "brisi",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "brisi": "github:varninace/brisi#e6c2fc4d4592956b98322f9f166296a5fa36329d"
     },
     "description": "",
     "files": [
