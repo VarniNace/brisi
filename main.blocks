@@ -1,21 +1,21 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="xnbe53ZDU4(#`=:7UB7M">Lik junaka</variable><variable id="I-Y3A/Un67^x4yZ9IAYo">mySprite</variable><variable type="KIND_SpriteKind" id="+02%I6tQ#8ZId[t4z^+K">Player</variable><variable type="KIND_SpriteKind" id="0jsZeBp]iDh!}W?V^rD]">Projectile</variable><variable type="KIND_SpriteKind" id="8_[^M_:JY4,4raZiwsah">Food</variable><variable type="KIND_SpriteKind" id="2@QHw@,}mP-6cE[qr;-~">Enemy</variable></variables><block type="pxt-on-start" id="u`$-`liQ=4R`ZgGTCrS~" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="m$eY^n}94iUv#8Fl/Pi1"><field name="VAR" id="xnbe53ZDU4(#`=:7UB7M">Lik junaka</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="c.4on!xVtq$%sX1~#/Y*"><value name="img"><shadow type="screen_image_picker" id="q{[9HRF@5db!=:Lc/Gu3"><field name="img">img`
-. . . . . . . . . b 5 b . . . . 
-. . . . . . . . . b 5 b . . . . 
-. . . . . . b b b b b b . . . . 
-. . . . . b b 5 5 5 5 5 b . . . 
-. . . . b b 5 b c 5 5 d 4 c . . 
-. b b b b 5 5 5 b f d d 4 4 4 b 
-. b d 5 b 5 5 b c b 4 4 4 4 b . 
-. . b 5 5 b 5 5 5 4 4 4 4 b . . 
-. . b d 5 5 b 5 5 5 5 5 5 b . . 
-. b d b 5 5 5 d 5 5 5 5 5 5 b . 
-b d d c d 5 5 b 5 5 5 5 5 5 b . 
-c d d d c c b 5 5 5 5 5 5 5 b . 
-c b d d d d d 5 5 5 5 5 5 5 b . 
-. c d d d d d d 5 5 5 5 5 d b . 
-. . c b d d d d d 5 5 5 b b . . 
-. . . c c c c c c c c b b . . . 
-`</field></shadow></value><value name="kind"><shadow type="spritekind" id="leVCdr|Dve/BIbQjt/7("><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="gamesetbackgroundimage" id="82jh^I1#2D)LjN^.=nQp"><value name="img"><shadow type="background_image_picker" id="-?K=OChMi:jWSV4R#xbX"><field name="img">img`
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="+02%I6tQ#8ZId[t4z^+K">Player</variable><variable type="KIND_SpriteKind" id="0jsZeBp]iDh!}W?V^rD]">Projectile</variable><variable type="KIND_SpriteKind" id="8_[^M_:JY4,4raZiwsah">Food</variable><variable type="KIND_SpriteKind" id="2@QHw@,}mP-6cE[qr;-~">Enemy</variable><variable id="xnbe53ZDU4(#`=:7UB7M">Lik junaka</variable><variable id="I-Y3A/Un67^x4yZ9IAYo">mySprite</variable><variable id="Qh%(OP(a6,Rx(8h@i9g=">Junak</variable></variables><block type="pxt-on-start" id="u`$-`liQ=4R`ZgGTCrS~" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="m$eY^n}94iUv#8Fl/Pi1"><field name="VAR" id="Qh%(OP(a6,Rx(8h@i9g=">Junak</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="c.4on!xVtq$%sX1~#/Y*"><value name="img"><shadow type="screen_image_picker" id="q{[9HRF@5db!=:Lc/Gu3"><field name="img">img`
+. . . . . . . 6 . . . . . . . . 
+. . . . . . 8 6 6 . . . 6 8 . . 
+. . . e e e 8 8 6 6 . 6 7 8 . . 
+. . e 2 2 2 2 e 8 6 6 7 6 . . . 
+. e 2 2 4 4 2 7 7 7 7 7 8 6 . . 
+. e 2 4 4 2 6 7 7 7 6 7 6 8 8 . 
+e 2 4 5 2 2 6 7 7 6 2 7 7 6 . . 
+e 2 4 4 2 2 6 7 6 2 2 6 7 7 6 . 
+e 2 4 2 2 2 6 6 2 2 2 e 7 7 6 . 
+e 2 4 2 2 4 2 2 2 4 2 2 e 7 6 . 
+e 2 4 2 2 2 2 2 2 2 2 2 e c 6 . 
+e 2 2 2 2 2 2 2 4 e 2 e e c . . 
+e e 2 e 2 2 4 2 2 e e e c . . . 
+e e e e 2 e 2 2 e e e c . . . . 
+e e e 2 e e c e c c c . . . . . 
+. c c c c c c c . . . . . . . . 
+`</field></shadow></value><value name="kind"><shadow type="spritekind" id="leVCdr|Dve/BIbQjt/7("><field name="MEMBER">Food</field></shadow></value></block></value><next><block type="gamesetbackgroundimage" id="82jh^I1#2D)LjN^.=nQp"><value name="img"><shadow type="background_image_picker" id="-?K=OChMi:jWSV4R#xbX"><field name="img">img`
 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
@@ -136,4 +136,4 @@ d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d 
 d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d 
 d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d 
 d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d 
-`</field></shadow></value><next><block type="game_control_sprite" id="T$yk-K,Y(nQUER@KxL,B"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="2" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id="t0;+GH|]c?5pc+HxxH?p"><field name="VAR" id="xnbe53ZDU4(#`=:7UB7M">Lik junaka</field></block></value><value name="vx"><shadow type="math_number" id="NwFn,I^7#1%IAFN1:!aU"><field name="NUM">100</field></shadow></value><value name="vy"><shadow type="math_number" id="k]mFi?kQBiAG]6_aI$^q"><field name="NUM">100</field></shadow></value></block></next></block></next></block></statement></block></xml>
+`</field></shadow></value><next><block type="game_control_sprite" id="T$yk-K,Y(nQUER@KxL,B"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="2" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id="t0;+GH|]c?5pc+HxxH?p"><field name="VAR" id="Qh%(OP(a6,Rx(8h@i9g=">Junak</field></block></value><value name="vx"><shadow type="math_number" id="NwFn,I^7#1%IAFN1:!aU"><field name="NUM">100</field></shadow></value><value name="vy"><shadow type="math_number" id="k]mFi?kQBiAG]6_aI$^q"><field name="NUM">100</field></shadow></value></block></next></block></next></block></statement></block></xml>
